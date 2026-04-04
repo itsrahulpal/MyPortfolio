@@ -1,6 +1,9 @@
-body{
+*{
     margin: 0;
     padding: 0;
+}
+body{
+    
 background-color: blanchedalmond;
 }
 #navbar{
@@ -10,6 +13,7 @@ background-color: blanchedalmond;
     justify-content: flex-end;
     padding: 7px;
     column-gap: 20px;
+    position: relative;
 
 }
 
@@ -17,5 +21,18 @@ background-color: blanchedalmond;
     max-height:20px ;
     max-width: 40px;
     border-radius: 50%;
-   
+    position:absolute;
+    left: 15px;
 }
+
+/* .hero1{
+    
+} */
+ form{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+ }
+
+
