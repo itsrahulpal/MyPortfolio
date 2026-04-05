@@ -4,7 +4,9 @@
 }
 body{
     
-background-color: blanchedalmond;
+background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
 }
 #navbar{
     border: 2px solid black;
@@ -24,15 +26,31 @@ background-color: blanchedalmond;
     position:absolute;
     left: 15px;
 }
-
-/* .hero1{
-    
-} */
- form{
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    width: 200px;
+hr{
+    padding: 20px;
+}
+:root {
+    --bg-color: #f5e6d3;        /* soft beige (better than current) */
+    --primary-color: #1e293b;   /* dark blue-gray (main text/nav) */
+    --secondary-color: #64748b; /* muted text */
+    --accent-color: #f97316;    /* orange highlight (buttons) */
+    --card-color: #ffffff;      /* white cards */
+    --border-color: #e2e8f0;
+}
+ .hero-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    gap: 30px;
  }
 
+ #profile-img{
+    border-radius: 50%;
+ }
+
+ .project{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ }
 
